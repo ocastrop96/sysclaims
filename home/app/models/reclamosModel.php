@@ -69,4 +69,14 @@ class ReclamosModel
 		$stmt->close();
 		$stmt = null;
 	}
+
+	static public function mdlCargarHojaReclamo($codigo)
+	{
+		$stmt = Conexion::conectar()->prepare("CALL CargarHojaReclamo(:codigo)");
+		$stmt->bindParam(":codigo", $codigo, PDO::PARAM_STR);
+		$stmt->execute();
+		return $stmt->fetch();
+		$stmt->close();
+		$stmt = null;
+	}
 }

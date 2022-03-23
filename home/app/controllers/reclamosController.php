@@ -230,6 +230,13 @@ class ControllerReclamo
         return $respuesta;
     }
 
+    static public function ctrCargarHojaReclamo($codigo)
+    {
+        $respuesta = ReclamosModel::mdlCargarHojaReclamo($codigo);
+        return $respuesta;
+    }
+
+
     static public function ctrListarParametros($tipo)
     {
         $respuesta = ReclamosModel::mdlListarParametros($tipo);
