@@ -29,6 +29,24 @@ $("#nomRep").keyup(function () {
     $("#nomRep").val(mayusNR);
 });
 
+$("#APRep").keyup(function () {
+    var nombRep = $(this).val();
+    var mayusNR = nombRep.toUpperCase();
+    $("#APRep").val(mayusNR);
+});
+
+$("#AMRep").keyup(function () {
+    var nombRep = $(this).val();
+    var mayusNR = nombRep.toUpperCase();
+    $("#AMRep").val(mayusNR);
+});
+
+$("#rsRep").keyup(function () {
+    var nombRep = $(this).val();
+    var mayusNR = nombRep.toUpperCase();
+    $("#rsRep").val(mayusNR);
+});
+
 $("#APUsuario").keyup(function () {
     var APUsuario = $(this).val();
     var mayusAP = APUsuario.toUpperCase();
