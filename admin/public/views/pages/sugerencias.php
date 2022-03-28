@@ -30,11 +30,8 @@
               <th style="width: 10px">#</th>
               <th>N°</th>
               <th>Fecha</th>
-              <th>Hora</th>
-              <th>Doc N°</th>
               <th>Usuario</th>
               <th>Sexo</th>
-              <th>Distrito</th>
               <th>Correo</th>
               <th>Estado</th>
               <th>Acciones</th>

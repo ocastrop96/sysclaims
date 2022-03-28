@@ -26,11 +26,8 @@
               <th style="width: 10px">#</th>
               <th>N°</th>
               <th>F.Registro</th>
-              <th>F.Ocurrencia</th>
               <th>Doc N°</th>
               <th>Usuario Afectado</th>
-              <th>Distrito</th>
-              <th>Tipo</th>
               <th>Estado</th>
               <th>Etapa</th>
               <th>Resultado</th>

@@ -26,11 +26,8 @@ class DatatableConsultas
                 "' . ($i + 1) . '",
                 "' . $consultas[$i]["correlativoCon"] . '",
                 "' . $consultas[$i]["fechaCon"] . '",
-                "' . $consultas[$i]["horaCon"] . '",
                 "' . $consultas[$i]["abrvTipDoc"] . '-' . $consultas[$i]["nDoc"] . '",
                 "' . $consultas[$i]["nombresAp"] . '",
-                "' . $consultas[$i]["descSexo"] . '",
-                "' . $consultas[$i]["descDistrito"] . '",
                 "' . $consultas[$i]["email"] . '",
                 "' . $estado . '",
                 "' . $botones . '"
